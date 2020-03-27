@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  spring_button: ^1.0.13
   flutter:
     sdk: flutter
 
@@ -67,10 +68,10 @@ flutter:
         - asset: assets/fonts/raleway/Raleway-SemiBold.ttf
     - family: baloo
       fonts:
-        - asset: assets/fonts/raleway/BalooThambi2-Bold.ttf
-        - asset: assets/fonts/raleway/BalooThambi2-ExtraBold.ttf
-        - asset: assets/fonts/raleway/BalooThambi2-Medium.ttf
-        - asset: assets/fonts/raleway/BalooThambi2-Regular.ttf
+        - asset: assets/fonts/baloo/BalooThambi2-Bold.ttf
+        - asset: assets/fonts/baloo/BalooThambi2-ExtraBold.ttf
+        - asset: assets/fonts/baloo/BalooThambi2-Medium.ttf
+        - asset: assets/fonts/baloo/BalooThambi2-Regular.ttf
 
 
 

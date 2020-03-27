@@ -1,16 +1,37 @@
 # max_throw
 
-A game that measures throwing power of your arms.
+A game that measures throwing power of your arms by accelerometer of your phone.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project only supports Android OS.
+Application may crash in IOS and other platforms.
 
-A few resources to get you started if this is your first Flutter project:
+##ScreenShots
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<p>
+    <img src="https://raw.githubusercontent.com/anirudhsharma392/MaxThrow/master/screenshots/maxThrow.gif"/>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+</p>
+
+
+##Installation
+
+Install MaxThrow by running:
+
+```dart
+flutter run 
+```
+
+## Support
+
+If you are having issues, please let us know.
+E-mail your concern at flutterglutter@gmail.com
+
+
+# 👍 Contribution
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -m 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request

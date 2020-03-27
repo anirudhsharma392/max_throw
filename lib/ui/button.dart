@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 
+//button will animate itself on click
+
 class Button extends StatelessWidget {
+  //adjust your font size if needed
   double fontSize;
-  //gives size to a buttton
+  //gives size to a button
   //Size must be less then 300
   double size;
   //overlay text of a button
@@ -12,9 +15,8 @@ class Button extends StatelessWidget {
   //ontap function must be
   Function onTap;
   Button(
-      {
-        this.fontSize=40,
-        this.size = 300,
+      {this.fontSize = 40,
+      this.size = 300,
       this.text = "Start",
       this.color = Colors.green,
       this.onTap})
@@ -24,14 +26,16 @@ class Button extends StatelessWidget {
     return Container(
       height: 300,
       alignment: Alignment.center,
-      padding: EdgeInsets.only(bottom:120),
+      padding: EdgeInsets.only(bottom: 120),
       child: InkWell(
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
         onTap: onTap,
+        //this container animates on changing any constraints automatically
         child: AnimatedContainer(
           curve: Curves.easeIn,
           duration: Duration(milliseconds: 400),
+          //+20 is for the shadow spread
           height: size + 20,
           width: size,
           decoration: BoxDecoration(

@@ -78,9 +78,11 @@ class _AccelerationMeterState extends State<AccelerationMeter> {
     });
   }
 
+  ///This is a parent widget
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
+
     return Column(
       children: <Widget>[
         y(_space * 3),
@@ -100,11 +102,13 @@ class _AccelerationMeterState extends State<AccelerationMeter> {
     );
   }
 
-  //gives a vertical margin
+  ///gives a vertical margin
   Widget y(ht) => SizedBox(height: ht);
-  //gives a horizontal margin
+
+  ///gives a horizontal margin
   Widget x(ht) => SizedBox(height: ht);
 
+  ///returns an Acceleration score label + it's real-time value
   Widget _score(wt) => Container(
         width: wt,
         decoration: BoxDecoration(
@@ -135,6 +139,9 @@ class _AccelerationMeterState extends State<AccelerationMeter> {
       );
 }
 
+///this widget returns a top 5 score list
+//this list will be changed every time you score greater then your last score.
+//it takes a sorted list in decreasing order as an input of scores
 class Top5 extends StatelessWidget {
   List maxAcceleraion;
   Top5(this.maxAcceleraion);
@@ -163,7 +170,12 @@ class Top5 extends StatelessWidget {
     );
   }
 
-  Widget _row(bool odd, String index, double score) {
+  ///this will add a new row inside a list
+  Widget _row(
+      bool odd, //true or false to distinguish between any 2 consecutive rows easily
+      String index, // pass a string for indexing purpose
+      double score // pass a score for a row here
+      ) {
     return Container(
       width: 250,
       height: 43,

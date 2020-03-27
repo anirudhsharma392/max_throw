@@ -5,17 +5,19 @@ A game that measures throwing power of your arms by accelerometer of your phone.
 ## Getting Started
 
 This project only supports Android OS.
+IOS support is in Todo list.
 Application may crash in IOS and other platforms.
 
-##ScreenShots
+
+
 
 <p>
-    <img src="https://raw.githubusercontent.com/anirudhsharma392/MaxThrow/master/screenshots/maxThrow.gif"/>
+    <img src="https://raw.githubusercontent.com/anirudhsharma392/max_throw/master/screenshots/maxThrow.gif"/>
 
 </p>
 
 
-##Installation
+
 
 Install MaxThrow by running:
 

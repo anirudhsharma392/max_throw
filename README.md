@@ -7,7 +7,10 @@ A game that measures throwing power of your arms by accelerometer of your phone.
 This project only supports Android OS.
 IOS support is in Todo list.
 Application may crash in IOS and other platforms.
-
+<p>
+This is a sample application which demonstrate the usage of event channel in flutter.Unlike method channel, event channel is used to send a stream of data instead just calling a function/method once.
+By using event channel we can access continues stream of data which is usefull when we want to observe any change in the sensor of our phone which would not be possible without channels.
+</p>
 
 <p> 
     <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-54-40-283_gsoc.max_throw.jpg" width="300"/>

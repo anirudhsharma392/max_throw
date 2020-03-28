@@ -12,7 +12,7 @@ Application may crash in IOS and other platforms.
 
 
 <p>
-    <img src="https://raw.githubusercontent.com/anirudhsharma392/max_throw/master/screenshots/maxThrow.gif" width="48"/>
+    <img src="https://raw.githubusercontent.com/anirudhsharma392/max_throw/master/screenshots/maxThrow.gif" width="300"/>
 
 </p>
 

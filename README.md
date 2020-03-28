@@ -9,10 +9,10 @@ IOS support is in Todo list.
 Application may crash in IOS and other platforms.
 
 
-<p>
-    <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-55-03-486_gsoc.max_throw.jpg" width="300"/>
-    <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-54-49-172_gsoc.max_throw.jpg" width="300"/>
+<p> 
     <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-54-40-283_gsoc.max_throw.jpg" width="300"/>
+     <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-54-49-172_gsoc.max_throw.jpg" width="300"/>
+    <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-55-03-486_gsoc.max_throw.jpg" width="300"/>
 
 </p>
 

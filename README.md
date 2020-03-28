@@ -15,11 +15,12 @@ By using event channel we can access continues stream of data which is usefull w
 <p> 
     <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-54-40-283_gsoc.max_throw.jpg" width="300"/>
      <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-54-49-172_gsoc.max_throw.jpg" width="300"/>
-    <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-55-03-486_gsoc.max_throw.jpg" width="300"/>
+    
 
 </p>
 
 <p>
+    <img src="https://github.com/anirudhsharma392/max_throw/blob/master/screenshots/Screenshot_2020-03-28-09-55-03-486_gsoc.max_throw.jpg" width="300"/>
     <img src="https://raw.githubusercontent.com/anirudhsharma392/max_throw/master/screenshots/maxThrow.gif" width="300"/>
 
 </p>
